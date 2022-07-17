@@ -1,0 +1,54 @@
+$colorBlue: #40A3F8;
+$colorBlack:#3E3E3E;
+$colorGray:#999999;
+$colorWhite:#FFFFFF;
+$colorBraun:#6E5F5F;
+
+header{
+    padding-top: 29px;
+
+
+}
+.navbar{
+
+    .navbar-brand{
+        width: 194px;
+    
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+}
+.navbar-nav {
+    .nav-item{
+
+
+        .nav-link{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: $colorBraun;
+            opacity: 70%;
+            
+
+            &:hover{
+                color:$colorBlue;
+                
+            }
+
+        }
+
+        }
+    }
+.bg-primary{
+    background-color: #40A3F8;
+    border-radius: 5px;
+    padding: 13px 30px;
+   
+
+
+}
+
+

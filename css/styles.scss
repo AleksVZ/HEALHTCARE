@@ -1,0 +1,28 @@
+// font-family: 'Cormorant', serif;
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Rubik', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+
+
+
+@import "header";
+@import "mixins";
+@import "main_page";
+
+
+
+// a{
+//     display: inline-block;
+// }
+p{
+    color: inherit;
+}
+.container{
+    max-width: 1177px;
+    margin: auto;
+   
+}
+
+
