@@ -3,3 +3,9 @@ $colorBlack:#3E3E3E;
 $colorGray:#999999;
 $colorWhite:#FFFFFF;
 $colorBraun:#6E5F5F;
+
+@mixin max-screen($res) {
+    @media screen and (max-width: $res) {
+      @content;
+    }
+  }

@@ -11,6 +11,13 @@ $colorBraun:#6E5F5F;
     background-size: cover;
      padding-top: 254px;
      padding-bottom: 210px;
+
+     @include max-screen (989px){
+        padding-top: 370px;
+
+      }
+ 
+
     h1{
         font-family: 'Roboto', sans-serif;
         font-weight: 700;

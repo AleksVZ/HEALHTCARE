@@ -34,6 +34,11 @@ header {
   padding-top: 254px;
   padding-bottom: 210px;
 }
+@media screen and (max-width: 989px) {
+  .main_Page {
+    padding-top: 370px;
+  }
+}
 .main_Page h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
