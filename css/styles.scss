@@ -10,6 +10,8 @@
 @import "header";
 @import "mixins";
 @import "main_page";
+@import "Easy_Steps";
+@import "Best_Quality";
 
 @mixin max-screen($res) {
     @media screen and (max-width: $res) {
@@ -17,9 +19,10 @@
     }
   }
 
-// a{
-//     display: inline-block;
-// }
+img{
+  display: block;
+  width: 100%;
+}
 p{
     color: inherit;
 }
