@@ -9,3 +9,23 @@ $colorBraun:#6E5F5F;
       @content;
     }
   }
+
+  @mixin btn_Blue{
+    display: inline-block;
+    background: $colorBlue;
+    padding: 10px 0;
+    color:$colorWhite;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    border-radius: 5px;
+    &:hover{
+      color: $colorBlue;
+      background:$colorWhite;
+      border: 1px solid $colorBlue;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  }

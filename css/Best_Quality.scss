@@ -4,3 +4,60 @@ $colorGray:#999999;
 $colorWhite:#FFFFFF;
 $colorBraun:#6E5F5F;
 
+.Best_Quality{
+    padding-bottom: 100px;
+    .img_Doctor{
+        max-width: 645px;
+        width: 100%;
+    
+    }
+    .row{
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 49px;
+            letter-spacing: 0.02em;
+            color: #3D3D3F;
+
+            margin-top: 75px;
+        
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: 0.02em;
+            color: rgba(61, 61, 63, 0.7);
+
+        }
+        ul{
+            
+            li{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 0.02em;
+                color: #3D3D3F;
+                list-style-type: none;
+                &:before{
+                    font-family: "Font Awesome 6 Free";
+                    font-weight: 900;
+                    content: "\f058";
+                    color: $colorBlue;
+                    font-size: 16px;
+                    margin-right: 18px;
+                  }
+                }
+            }
+        }
+        a{
+            @include btn_Blue;
+            padding-left: 19px;
+            padding-right: 42px;
+        }
+
+    }
+

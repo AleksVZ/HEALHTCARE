@@ -1,0 +1,32 @@
+.Best_Quality .img_Doctor {
+  max-width: 545px;
+  width: 100%;
+}
+
+.Best_Quality .row h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #3D3D3F;
+}
+
+.Best_Quality .row p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: rgba(61, 61, 63, 0.7);
+}
+
+.Best_Quality .row ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #3D3D3F;
+  list-style-type: none;
+}
