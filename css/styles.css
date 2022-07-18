@@ -1,3 +1,8 @@
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css";
+@import "https://resources/demos/style.css";
 header {
   padding-top: 29px;
 }
@@ -322,6 +327,7 @@ header {
 }
 .flex-Our_Service article div {
   width: 61px;
+  height: 69px;
 }
 .flex-Our_Service article h4 {
   margin-top: 19px;
