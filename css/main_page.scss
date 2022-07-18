@@ -89,6 +89,7 @@ $colorBraun:#6E5F5F;
     background: rgba(245, 246, 250, 0.648);
 
      border: 1px solid rgba(158, 155, 155, 0.189);
+
     @include max-screen (593px){
         border: 4px solid #40a2f851;
         
@@ -120,14 +121,14 @@ $colorBraun:#6E5F5F;
       
         border: 1px solid rgba(158, 155, 155, 0.189);
 
-        padding: 20px 0px 22px 20px;
-        appearance: none;
+        padding: 20px 5px 22px 20px;
+        // appearance: none;
+        
+        
         @include max-screen (593px){
             border: 4px solid #40a2f851;
             
-          }
-   
-    
+        }
 }
 .form-control{
     height: inherit;

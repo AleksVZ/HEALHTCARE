@@ -167,10 +167,7 @@ header {
   color: #3D3D3F;
   background: rgba(245, 246, 250, 0.52);
   border: 1px solid rgba(158, 155, 155, 0.189);
-  padding: 20px 0px 22px 20px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  padding: 20px 5px 22px 20px;
 }
 @media screen and (max-width: 593px) {
   #exampleInputSity {
@@ -287,8 +284,67 @@ header {
   text-decoration: none;
 }
 
-.Best_Quality {
+.Our_Service {
   padding-top: 43px;
+  background: rgba(158, 197, 230, 0.0941176471);
+}
+.Our_Service h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #3D3D3F;
+}
+.Our_Service p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(61, 61, 63, 0.7);
+}
+
+.flex-Our_Service article {
+  max-width: 349px;
+  background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+  -webkit-filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+          filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 75px;
+  margin-bottom: 94px;
+  padding: 61px;
+  padding-bottom: 31px;
+  padding-left: 62px;
+  padding-right: 62px;
+}
+.flex-Our_Service article div {
+  width: 61px;
+}
+.flex-Our_Service article h4 {
+  margin-top: 19px;
+  margin-bottom: 23px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #3D3D3F;
+}
+.flex-Our_Service article p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+}
+.flex-Our_Service article:nth-child(2) {
+  border-bottom: 18px solid rgba(64, 162, 248, 0.4588235294);
+  -webkit-box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.05);
 }
 
 img {
