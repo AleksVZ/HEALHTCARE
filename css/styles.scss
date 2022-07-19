@@ -20,13 +20,16 @@
 @import "Easy_Steps";
 @import "Best_Quality";
 @import "Our_Service";
+@import "Meet_Our";
 
 @mixin max-screen($res) {
     @media screen and (max-width: $res) {
       @content;
     }
   }
-
+a{
+  display: inline-block;
+}
 img{
   display: block;
   width: 100%;
@@ -36,7 +39,7 @@ p{
 }
 .container{
     max-width: 1177px;
-    margin: auto;
+    text-align: center;
    
 }
 

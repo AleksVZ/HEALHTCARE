@@ -55,10 +55,18 @@ $colorBraun:#6E5F5F;
                 }
             }
         }
-        a{
+        .btn_Blue{
             @include btn_Blue;
             padding-left: 19px;
-            padding-right: 42px;
+            padding-right: 22px;
+            span:after{
+                font-family: "Font Awesome 6 Free";
+                font-weight: 900;
+                content: "\f061";
+                font-size: 16px;
+                color: colorWhite;
+                margin-left: 10px;
+            }
         }
 
     }
