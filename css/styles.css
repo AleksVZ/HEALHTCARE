@@ -292,6 +292,7 @@ header {
 .Our_Service {
   padding-top: 43px;
   background: rgba(158, 197, 230, 0.0941176471);
+  padding-bottom: 60px;
 }
 .Our_Service h3 {
   font-family: "Roboto", sans-serif;
@@ -312,7 +313,6 @@ header {
 }
 
 .flex-Our_Service article {
-  max-width: 349px;
   background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
   -webkit-filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
           filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
@@ -351,6 +351,17 @@ header {
   border-bottom: 18px solid rgba(64, 162, 248, 0.4588235294);
   -webkit-box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.05);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  background: #DBE8EE;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  width: 80px;
+  background: #40A3F8;
 }
 
 img {
