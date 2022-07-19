@@ -374,7 +374,6 @@ header {
 
 .Meet_Our {
   padding-top: 60px;
-  padding-bottom: 128px;
   background: rgba(158, 197, 230, 0.0941176471);
 }
 .Meet_Our h3 {
@@ -485,6 +484,62 @@ header {
   border: 1px solid #40A3F8;
   border-radius: 5px;
   text-decoration: none;
+}
+
+.Mobile {
+  background-image: url("../img/SliceMobile.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+@media screen and (max-width: 1000px) {
+  .Mobile {
+    background: rgba(158, 198, 230, 0.1529411765);
+  }
+}
+.Mobile .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.Mobile .top .row {
+  width: 50%;
+}
+@media screen and (max-width: 1000px) {
+  .Mobile .top .row {
+    width: 100%;
+  }
+}
+.Mobile .top .row h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #3D3D3F;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.Mobile .top .row p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: rgba(61, 61, 63, 0.7);
+  text-align: left;
+  margin-bottom: 30px;
+}
+.Mobile .top .row .d-flex .GooglePlay {
+  width: 156px;
+  overflow: hidden;
+}
+.Mobile .top .row .d-flex .AppStore {
+  width: 138px;
+  overflow: hidden;
 }
 
 a {

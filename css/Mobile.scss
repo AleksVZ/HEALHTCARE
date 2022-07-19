@@ -1,0 +1,81 @@
+$colorBlue: #40A3F8;
+$colorBlack:#3E3E3E;
+$colorGray:#999999;
+$colorWhite:#FFFFFF;
+$colorBraun:#6E5F5F;
+
+.Mobile{
+    background-image: url('../img/SliceMobile.jpg');
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    @include max-screen (1000px){
+        background: #9ec6e627;
+
+
+        
+
+      }
+
+
+
+.top{
+    display: flex;
+    justify-content: end;
+
+        .row{
+            width: 50%;
+            // flex-direction: column;
+            @include max-screen (1000px){
+                width: 100%;
+        
+              }
+
+
+
+            
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            color: #3D3D3F;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: 0.02em;
+            color: rgba(61, 61, 63, 0.7);
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+
+
+
+
+
+
+
+    .d-flex{
+        .GooglePlay{
+            width: 156px;
+            overflow: hidden;
+            
+        }
+        .AppStore{
+            width: 138px;
+            overflow: hidden;
+
+        }
+    }
+
+        }
+}
+}
+
