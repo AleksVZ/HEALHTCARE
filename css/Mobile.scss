@@ -23,8 +23,10 @@ $colorBraun:#6E5F5F;
         .row{
             width: 50%;
             // flex-direction: column;
+            
             @include max-screen (1000px){
                 width: 100%;
+                margin: inherit;
         
               }
 

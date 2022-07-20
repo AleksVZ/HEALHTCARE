@@ -22,15 +22,18 @@ $colorBraun:#6E5F5F;
 
     
     article{
-        height: auto;       
+        height: 380px;    
+  
 
         background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
         box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
         padding: 22px 32px 32px 32px ;
         border-radius: 10px;
         position: relative;
-
+    
         margin-bottom: 30px;
+        border: 1px solid rgba(144, 142, 142, 0.279);
+
 
 
         .commas{
@@ -48,6 +51,21 @@ $colorBraun:#6E5F5F;
             height: 63px;
             overflow: hidden;
             margin: auto;
+        }
+        .flex-name_doctor{
+            @include max-screen (362px){
+                flex-direction: column;
+                align-items: center;
+                
+              }
+              ul{
+                @include max-screen (362px){
+                    padding: 0px;
+                    
+                  }
+              }
+            
+        
         }
 
 
@@ -98,6 +116,26 @@ $colorBraun:#6E5F5F;
         }
 
     
+    
+    @include max-screen (1099px){
+        height: 340px ;
+      }
+    @include max-screen (428px){
+        height: 380px ;
+      }
+    @include max-screen (362px){
+        height: 420px ;
+        
+      }
+    @include max-screen (346px){
+        height: 460px ;
+        
+      }
+    @include max-screen (312px){
+        height: 570px ;
+        
+      }
+      
     }
 
 }

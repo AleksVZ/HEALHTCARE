@@ -23,6 +23,7 @@
 @import "Meet_Our";
 @import "Mobile";
 @import "Look";
+@import "time_Change";
 
 @mixin max-screen($res) {
     @media screen and (max-width: $res) {
