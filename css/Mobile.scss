@@ -12,9 +12,6 @@ $colorBraun:#6E5F5F;
     @include max-screen (1000px){
         background: #9ec6e627;
 
-
-        
-
       }
 
 
@@ -63,16 +60,27 @@ $colorBraun:#6E5F5F;
 
 
     .d-flex{
+        flex-wrap: wrap;
         .GooglePlay{
             width: 156px;
             overflow: hidden;
+            margin-bottom: 20px;
+
+
             
         }
         .AppStore{
             width: 138px;
             overflow: hidden;
 
+
         }
+
+        // @include max-screen (356px){
+        //     justify-content: center;
+        //     align-items: center;
+    
+        //   }
     }
 
         }

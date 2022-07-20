@@ -533,13 +533,92 @@ header {
   text-align: left;
   margin-bottom: 30px;
 }
+.Mobile .top .row .d-flex {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 .Mobile .top .row .d-flex .GooglePlay {
   width: 156px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .Mobile .top .row .d-flex .AppStore {
   width: 138px;
   overflow: hidden;
+}
+
+.Look {
+  padding-top: 120px;
+  background: rgba(158, 198, 230, 0.1529411765);
+  padding-bottom: 65px;
+}
+.Look h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #3D3D3F;
+  margin-bottom: 93px;
+}
+.Look article {
+  height: 380px;
+  background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+  -webkit-box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  padding: 22px 32px 32px 32px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.Look article .commas {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -17px;
+  right: 41px;
+}
+.Look article .Photo_client {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  overflow: hidden;
+  margin: auto;
+}
+.Look article h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 55px;
+  color: #3D3D3F;
+  text-align: left;
+}
+.Look article ul li {
+  list-style: none;
+}
+.Look article ul li::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f005";
+  color: #FF9000;
+}
+.Look article p:first-of-type {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.Look article p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #454D5D;
+  text-align: left;
 }
 
 a {

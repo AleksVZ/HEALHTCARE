@@ -22,4 +22,30 @@ $(document).ready(function(){
     $( function() {
         $( "#accordion" ).accordion();
       } );
+
+
+
+
+
+      $('.owl-carousel.c-2').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        dotsEach:true,
+        smartSpeed:2000,
+        margin:20,
+        navText: [ '', ' ' ],
+
+        responsive:{
+            0:{
+                items:1
+            },
+            1100:{
+                items:3
+            }
+        }
+    });
+    $( function() {
+        $( "#accordion" ).accordion();
+      } );
 });
