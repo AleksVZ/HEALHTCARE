@@ -551,7 +551,7 @@ header {
 .Look {
   padding-top: 120px;
   background: rgba(158, 198, 230, 0.1529411765);
-  padding-bottom: 65px;
+  padding-bottom: 87px;
 }
 .Look h3 {
   font-family: "Roboto", sans-serif;
@@ -666,7 +666,98 @@ header {
 
 .time_Change {
   padding-top: 60px;
+  padding-bottom: 123px;
   background: rgba(158, 198, 230, 0.1529411765);
+  position: relative;
+}
+.time_Change .color_bg {
+  background: #40A3F8;
+  border-radius: 12px;
+  padding: 82px 0px 92px 118px;
+  text-align: left;
+}
+@media screen and (max-width: 1000px) {
+  .time_Change .color_bg {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .time_Change .color_bg {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.time_Change .color_bg h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 21px;
+}
+@media screen and (max-width: 900px) {
+  .time_Change .color_bg h3 {
+    font-size: 30px;
+  }
+}
+.time_Change .color_bg .btn_White {
+  display: inline-block;
+  background: #FFFFFF;
+  padding: 10px 0;
+  color: #40A3F8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  padding: 16px 18px;
+}
+.time_Change .color_bg .btn_White:hover {
+  color: #FFFFFF;
+  background: #40A3F8;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.time_Change .photo {
+  max-width: 600px;
+  width: 100%;
+  position: absolute;
+  right: 100px;
+  top: -48px;
+}
+@media screen and (max-width: 1300px) {
+  .time_Change .photo {
+    right: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .time_Change .photo {
+    right: -20px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .time_Change .photo {
+    right: -60px;
+  }
+}
+@media screen and (max-width: 954px) {
+  .time_Change .photo {
+    right: -110px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .time_Change .photo {
+    display: none;
+  }
 }
 
 a {

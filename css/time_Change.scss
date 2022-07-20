@@ -6,5 +6,72 @@ $colorBraun:#6E5F5F;
 
 .time_Change{
     padding-top: 60px;
+    padding-bottom: 123px;
     background: #9ec6e627;
+    position: relative;
+
+    .color_bg{
+        background: #40A3F8;
+        border-radius: 12px;
+        padding: 82px 0px 92px 118px;
+        text-align: left;
+        @include max-screen (1000px){
+            padding-left: 40px;
+            
+        }
+        @include max-screen (900px){
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+          }
+
+        
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 21px;
+            @include max-screen (900px){
+                font-size: 30px;
+              }
+        }
+        .btn_White{
+            @include btn_White;
+            padding: 16px 18px;
+
+        }
+
+    }
+
+    .photo{
+        max-width: 600px;
+        width: 100%;
+        position: absolute;
+        right: 100px;
+        top: -48px;
+
+        @include max-screen (1300px){
+            right: 50px;
+          }
+        @include max-screen (1200px){
+            right: -20px;
+          }
+        @include max-screen (1080px){
+            right: -60px;
+          }
+        @include max-screen (954px){
+            right: -110px;
+            
+          }
+          @include max-screen (900px){
+            display: none;
+            
+          }
+
+    }
+
 }
