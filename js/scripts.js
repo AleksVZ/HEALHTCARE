@@ -26,12 +26,9 @@ $(document).ready(function(){
 
 
 
-
-      $('.owl-carousel.c-2').owlCarousel({
+      $('.owl-carousel').owlCarousel({
         loop:true,
         margin:0,
-        nav:true,
-        dotsEach:true,
         smartSpeed:2000,
         margin:20,
         navText: [ '', ' ' ],
