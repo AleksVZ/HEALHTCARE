@@ -86,9 +86,9 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -187,6 +187,11 @@ header {
 
 .form-group {
   line-height: 1;
+}
+@media screen and (max-width: 593px) {
+  .form-group {
+    width: 100%;
+  }
 }
 
 .Easy_Steps {
