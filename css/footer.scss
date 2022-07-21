@@ -42,6 +42,7 @@ footer{
         .social_footer{
         padding: inherit;
         list-style-type: none;
+        
         @include max-screen (600px){
             justify-content: center; 
         }
