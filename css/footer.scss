@@ -127,10 +127,53 @@ footer{
 
     }
 
+    }
 
 
+
+
+.sub_footer{
+    background: #E5E5E5;
+    padding-top: 22px;
+    @include max-screen (600px){
+        display: none;
+    }
+
+
+    .footer_down{
+        
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        p{
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            color: #646464;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin-left: 53px;
+                a{
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #646464;
+                    text-decoration: none;
+                }
+                
+            }
+
+        
+        }
+    }
 }
-
 
 
     

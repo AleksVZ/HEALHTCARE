@@ -914,6 +914,51 @@ footer .box_Subscribe .btn-primary {
   color: #FFFFFF;
 }
 
+.sub_footer {
+  background: #E5E5E5;
+  padding-top: 22px;
+}
+@media screen and (max-width: 600px) {
+  .sub_footer {
+    display: none;
+  }
+}
+.sub_footer .footer_down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.sub_footer .footer_down p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #646464;
+}
+.sub_footer .footer_down ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.sub_footer .footer_down ul li {
+  margin-left: 53px;
+}
+.sub_footer .footer_down ul li a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #646464;
+  text-decoration: none;
+}
+
 a {
   display: inline-block;
 }
