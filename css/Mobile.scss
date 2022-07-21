@@ -20,15 +20,17 @@ $colorBraun:#6E5F5F;
     display: flex;
     justify-content: end;
 
+
+
         .row{
             width: 50%;
-            // flex-direction: column;
+
             
             @include max-screen (1000px){
                 width: 100%;
                 margin: inherit;
         
-              }
+            }
 
 
 
@@ -61,12 +63,18 @@ $colorBraun:#6E5F5F;
 
 
 
-    .d-flex{
+    .Store_button{
         flex-wrap: wrap;
+        
         .GooglePlay{
             width: 156px;
             overflow: hidden;
             margin-bottom: 20px;
+            @include max-screen (600px){
+                
+                
+        
+            }
 
 
             
@@ -78,11 +86,6 @@ $colorBraun:#6E5F5F;
 
         }
 
-        // @include max-screen (356px){
-        //     justify-content: center;
-        //     align-items: center;
-    
-        //   }
     }
 
         }

@@ -542,16 +542,16 @@ header {
   text-align: left;
   margin-bottom: 30px;
 }
-.Mobile .top .row .d-flex {
+.Mobile .top .row .Store_button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.Mobile .top .row .d-flex .GooglePlay {
+.Mobile .top .row .Store_button .GooglePlay {
   width: 156px;
   overflow: hidden;
   margin-bottom: 20px;
 }
-.Mobile .top .row .d-flex .AppStore {
+.Mobile .top .row .Store_button .AppStore {
   width: 138px;
   overflow: hidden;
 }
