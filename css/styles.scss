@@ -24,6 +24,7 @@
 @import "Mobile";
 @import "Look";
 @import "time_Change";
+@import "footer";
 
 @mixin max-screen($res) {
     @media screen and (max-width: $res) {

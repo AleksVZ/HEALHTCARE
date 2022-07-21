@@ -1,0 +1,135 @@
+$colorBlue: #40A3F8;
+$colorBlack:#3E3E3E;
+$colorGray:#999999;
+$colorWhite:#FFFFFF;
+$colorBraun:#6E5F5F;
+
+footer{
+    padding-top: 34px;
+    padding-bottom: 97px;
+
+    .footer_wrapper{
+        @include max-screen (600px){
+            flex-direction: column;
+        
+            width: 100%;
+            
+        }
+    }
+
+    .box_social{
+        margin-right: 200px;
+        text-align: left;
+        @include max-screen (800px){
+            margin-right: 0px;
+            
+        }
+        @include max-screen (600px){
+            width: 100%;
+            text-align: center;
+            
+            
+        }
+ 
+        p{
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 180%;
+            color: #646464;
+
+        }
+        .social_footer{
+        padding: inherit;
+        list-style-type: none;
+        @include max-screen (600px){
+            justify-content: center; 
+        }
+        li{
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+        }
+    }
+    }
+
+
+    .box_category{
+        
+        ul{
+
+            padding: inherit;
+            list-style-type: none;
+            li{
+                @include max-screen (600px){
+                    display: none;
+                }
+
+                &:first-of-type a{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #323232;
+                }
+                a{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                color: #646464;
+                text-decoration: none;
+
+                }
+                }
+            }
+            }
+    .box_Subscribe{
+        text-align: left;
+        @include max-screen (1000px){
+            width: 100%
+            
+        }
+        @include max-screen (600px){
+            text-align: center;
+        }
+
+
+        a{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            color: #323232;
+        }
+
+        #InputEmail2{
+            margin-bottom: 12px;
+        &::placeholder{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: rgba(117, 117, 117, 0.65);
+            margin-left: 12px;
+        }
+    }
+    .btn-primary{
+        width: 100%;
+        background: #40A3F8;
+        border: 1.1px solid #E1E2E4;
+        border-radius: 5px;
+
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+    }
+
+    }
+
+
+
+}
+
+
+
+    

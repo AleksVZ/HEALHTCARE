@@ -278,6 +278,7 @@ header {
   line-height: 30px;
   letter-spacing: 0.02em;
   border-radius: 5px;
+  border: 1px solid transparent;
   padding-left: 19px;
   padding-right: 22px;
 }
@@ -476,6 +477,7 @@ header {
   line-height: 30px;
   letter-spacing: 0.02em;
   border-radius: 5px;
+  border: 1px solid transparent;
   padding: 9px 22px;
 }
 .Meet_Our .btn_Blue:hover {
@@ -573,7 +575,11 @@ header {
   margin-bottom: 30px;
   border: 1px solid rgba(144, 142, 142, 0.279);
 }
-.Look article .commas {
+.Look article:before {
+  background-image: url("../img/Quote.svg");
+  content: "";
+  display: block;
+  width: 100%;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -758,6 +764,153 @@ header {
   .time_Change .photo {
     display: none;
   }
+}
+
+footer {
+  padding-top: 34px;
+  padding-bottom: 97px;
+}
+@media screen and (max-width: 600px) {
+  footer .footer_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+footer .box_social {
+  margin-right: 200px;
+  text-align: left;
+}
+@media screen and (max-width: 800px) {
+  footer .box_social {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .box_social {
+    width: 100%;
+    text-align: center;
+  }
+}
+footer .box_social p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #646464;
+}
+footer .box_social .social_footer {
+  padding: inherit;
+  list-style-type: none;
+}
+@media screen and (max-width: 600px) {
+  footer .box_social .social_footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+footer .box_social .social_footer li {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+footer .box_category ul {
+  padding: inherit;
+  list-style-type: none;
+}
+@media screen and (max-width: 600px) {
+  footer .box_category ul li {
+    display: none;
+  }
+}
+footer .box_category ul li:first-of-type a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #323232;
+}
+footer .box_category ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #646464;
+  text-decoration: none;
+}
+footer .box_Subscribe {
+  text-align: left;
+}
+@media screen and (max-width: 1000px) {
+  footer .box_Subscribe {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .box_Subscribe {
+    text-align: center;
+  }
+}
+footer .box_Subscribe a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #323232;
+}
+footer .box_Subscribe #InputEmail2 {
+  margin-bottom: 12px;
+}
+footer .box_Subscribe #InputEmail2::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(117, 117, 117, 0.65);
+  margin-left: 12px;
+}
+footer .box_Subscribe #InputEmail2::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(117, 117, 117, 0.65);
+  margin-left: 12px;
+}
+footer .box_Subscribe #InputEmail2:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(117, 117, 117, 0.65);
+  margin-left: 12px;
+}
+footer .box_Subscribe #InputEmail2::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(117, 117, 117, 0.65);
+  margin-left: 12px;
+}
+footer .box_Subscribe #InputEmail2::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(117, 117, 117, 0.65);
+  margin-left: 12px;
+}
+footer .box_Subscribe .btn-primary {
+  width: 100%;
+  background: #40A3F8;
+  border: 1.1px solid #E1E2E4;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
 }
 
 a {
