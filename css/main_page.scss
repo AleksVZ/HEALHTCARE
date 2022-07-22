@@ -9,16 +9,13 @@ $colorBraun:#6E5F5F;
 .main_Page{
     background-image: url('../img/Slice11.jpg');
     background-size: cover;
-     padding-top: 254px;
-     padding-bottom: 210px;
+    padding-top: 254px;
+    padding-bottom: 210px;
 
-     @include max-screen (989px){
+    @include max-screen (989px){
         padding-top: 370px;
         padding-bottom: 110px;
-
-      }
- 
-
+    }
     h1{
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -26,11 +23,11 @@ $colorBraun:#6E5F5F;
         line-height: 70px;
         color: $colorBlack;
         margin-bottom: 31px;
+        text-align: left;
         span{
             color: $colorBlue;
             
         }
-     
     }
     p{
         font-family: 'Roboto', sans-serif;
@@ -38,7 +35,7 @@ $colorBraun:#6E5F5F;
         font-size: 14px;
         line-height: 30px;
         color: rgba(117, 117, 117, 0.46);
-        
+        text-align: left;
         margin-bottom: 50px;
     }
 
@@ -52,23 +49,31 @@ $colorBraun:#6E5F5F;
         border-radius: 8px;
         background: #fafafa;
         box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
+        position: relative;
+        &::before{
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            content: "\f3c5";
+            position: absolute;
+            font-size: 24px;
+            top: 30px;
+            right: 240px;
+            margin-right: 5px;
+            @include max-screen (593px){
+            display: none;
+            }
+        }
 
         @include max-screen (593px){
             background: none;
             flex-direction: column;
             align-items: center;
-    
-          }
-
-        
-
+        }
         }
     }
-.row{
+.box_main_page{
     margin-left: none;
 }
-
-
 .search{
     display: block;
     width: 70px;
@@ -76,25 +81,21 @@ $colorBraun:#6E5F5F;
     overflow: hidden;
     background:$colorBlue;
     padding: 13px 19px 16px 19px;
-
     img{
         display: block;
         width: 100%;
     }
 }
-
 #exampleInputSearch{
     margin-right: 19px;
     margin-left: 13px;
     padding: 21px 15px;
     background: rgba(245, 246, 250, 0.648);
-
-     border: 1px solid rgba(158, 155, 155, 0.189);
+    border: 1px solid rgba(158, 155, 155, 0.189);
 
     @include max-screen (593px){
         border: 4px solid #40a2f851;
-        
-      }   
+    }   
 
     &::placeholder{
         font-family: 'Poppins', sans-serif;
@@ -103,9 +104,6 @@ $colorBraun:#6E5F5F;
         font-size: 14px;
         line-height: 24px;
         color: rgba(0, 0, 0, 0.3);
-        
-        
-
         }
     }
 
@@ -119,13 +117,11 @@ $colorBraun:#6E5F5F;
         line-height: 24px;
         color: #3D3D3F;
         background: rgba(245, 246, 250, 0.52);
-      
         border: 1px solid rgba(158, 155, 155, 0.189);
 
-        padding: 20px 5px 22px 20px;
+        padding: 22px 0px 22px 20px;
+        text-align: center;
         // appearance: none;
-        
-        
         @include max-screen (593px){
             border: 4px solid #40a2f851;
             
@@ -133,14 +129,13 @@ $colorBraun:#6E5F5F;
 }
 .form-control{
     height: inherit;
-
 }
 .form-group{
     line-height: 1;
     @include max-screen (593px){
         width: 100%;
         
-      } 
+    } 
 }
 
 

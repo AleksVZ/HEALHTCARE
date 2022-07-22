@@ -56,6 +56,7 @@ header {
   line-height: 70px;
   color: #3E3E3E;
   margin-bottom: 31px;
+  text-align: left;
 }
 .main_Page h1 span {
   color: #40A3F8;
@@ -66,6 +67,7 @@ header {
   font-size: 14px;
   line-height: 30px;
   color: rgba(117, 117, 117, 0.46);
+  text-align: left;
   margin-bottom: 50px;
 }
 
@@ -82,6 +84,22 @@ header {
   background: #fafafa;
   -webkit-box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
           box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
+  position: relative;
+}
+.main_Page form::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f3c5";
+  position: absolute;
+  font-size: 24px;
+  top: 30px;
+  right: 240px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 593px) {
+  .main_Page form::before {
+    display: none;
+  }
 }
 @media screen and (max-width: 593px) {
   .main_Page form {
@@ -96,7 +114,7 @@ header {
   }
 }
 
-.row {
+.box_main_page {
   margin-left: none;
 }
 
@@ -177,7 +195,8 @@ header {
   color: #3D3D3F;
   background: rgba(245, 246, 250, 0.52);
   border: 1px solid rgba(158, 155, 155, 0.189);
-  padding: 20px 5px 22px 20px;
+  padding: 22px 0px 22px 20px;
+  text-align: center;
 }
 @media screen and (max-width: 593px) {
   #exampleInputSity {

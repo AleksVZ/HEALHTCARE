@@ -6,14 +6,10 @@ $colorBraun:#6E5F5F;
 
 header{
     padding-top: 29px;
-
-
 }
 .navbar{
-
     .navbar-brand{
         width: 194px;
-    
         img{
             display: block;
             width: 100%;
@@ -24,10 +20,7 @@ header{
     .nav-item{
         &:hover {
             transform: scale(1.2, 1.2);
-            
         }
-
-
         .nav-link{
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
@@ -35,24 +28,16 @@ header{
             line-height: 24px;
             color: $colorBraun;
             opacity: 70%;
-            
-
             &:hover{
                 color:$colorBlue;
-                
             }
-
         }
-
         }
     }
 .bg-primary{
     background-color: #40A3F8;
     border-radius: 5px;
     padding: 13px 30px;
-   
-
-
 }
 
 
