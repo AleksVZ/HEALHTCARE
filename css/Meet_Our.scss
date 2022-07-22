@@ -55,6 +55,11 @@ $colorBraun:#6E5F5F;
 
         padding: 10px 13px ;
         margin-bottom: 25px;
+        &:hover {
+            transform: scale(1.05, 1.05);
+
+            
+        }
         
 
         .photo{

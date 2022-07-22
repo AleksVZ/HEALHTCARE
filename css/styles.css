@@ -432,6 +432,10 @@ header {
   padding: 10px 13px;
   margin-bottom: 25px;
 }
+.Meet_Our .row article:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
 .Meet_Our .row article .photo {
   width: 241px;
   height: 249px;
