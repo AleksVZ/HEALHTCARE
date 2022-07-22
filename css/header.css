@@ -11,6 +11,10 @@ header {
   width: 100%;
 }
 
+.navbar-nav .nav-item:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .navbar-nav .nav-item .nav-link {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;

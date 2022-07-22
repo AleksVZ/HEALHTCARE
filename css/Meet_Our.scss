@@ -97,6 +97,12 @@ $colorBraun:#6E5F5F;
                 display: block;
                 width: 31px;
                 height: 31px;
+                border-radius: 50%;
+                overflow: hidden;
+                &:hover {
+                    transform: scale(1.2, 1.2);
+                    box-shadow: 0px 0px 15px #40A3F8;
+                }
                 a{
                     list-style-type: none;
                 }

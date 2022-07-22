@@ -22,6 +22,10 @@ header{
 }
 .navbar-nav {
     .nav-item{
+        &:hover {
+            transform: scale(1.2, 1.2);
+            
+        }
 
 
         .nav-link{

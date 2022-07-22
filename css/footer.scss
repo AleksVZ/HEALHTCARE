@@ -7,6 +7,7 @@ $colorBraun:#6E5F5F;
 footer{
     padding-top: 34px;
     padding-bottom: 97px;
+    // background: #000;
 
     .footer_wrapper{
         @include max-screen (600px){
@@ -50,6 +51,14 @@ footer{
             display: inline-block;
             width: 32px;
             height: 32px;
+            border-radius: 50%;
+            overflow: hidden;
+            &:hover {
+                transform: scale(1.2, 1.2);
+                box-shadow: 0px 0px 15px #40A3F8;
+                
+            }
+
         }
     }
     }
@@ -62,6 +71,7 @@ footer{
             padding: inherit;
             list-style-type: none;
             li{
+
                 @include max-screen (600px){
                     display: none;
                 }
@@ -80,6 +90,10 @@ footer{
                 line-height: 14px;
                 color: #646464;
                 text-decoration: none;
+                &:hover{
+                    color:$colorBlue;
+                    
+                }
 
                 }
                 }
@@ -102,6 +116,11 @@ footer{
             font-size: 16px;
             line-height: 16px;
             color: #323232;
+            text-decoration: none;
+            &:hover{
+                color:$colorBlue;
+                
+            }
         }
 
         #InputEmail2{
