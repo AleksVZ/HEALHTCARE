@@ -49,6 +49,11 @@ header {
     padding-bottom: 110px;
   }
 }
+@media screen and (max-width: 593px) {
+  .main_Page {
+    padding-bottom: 35px;
+  }
+}
 .main_Page h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -60,6 +65,12 @@ header {
 }
 .main_Page h1 span {
   color: #40A3F8;
+}
+@media screen and (max-width: 900px) {
+  .main_Page h1 {
+    font-size: 38px;
+    line-height: 55px;
+  }
 }
 .main_Page p {
   font-family: "Roboto", sans-serif;
@@ -230,6 +241,11 @@ header {
   line-height: 70px;
   color: #3E3E3E;
 }
+@media screen and (max-width: 900px) {
+  .Easy_Steps h3 {
+    font-size: 30px;
+  }
+}
 .Easy_Steps .row_Easy_Steps div {
   margin: auto;
 }
@@ -258,6 +274,11 @@ header {
 .Best_Quality {
   padding-bottom: 100px;
 }
+@media screen and (max-width: 767px) {
+  .Best_Quality {
+    padding-bottom: 60px;
+  }
+}
 .Best_Quality .img_Doctor {
   max-width: 645px;
   width: 100%;
@@ -270,6 +291,11 @@ header {
   letter-spacing: 0.02em;
   color: #3D3D3F;
   margin-top: 75px;
+}
+@media screen and (max-width: 900px) {
+  .Best_Quality .row h3 {
+    font-size: 30px;
+  }
 }
 .Best_Quality .row p {
   font-family: "Roboto", sans-serif;
@@ -363,7 +389,7 @@ header {
   padding-left: 62px;
   padding-right: 62px;
 }
-.flex-Our_Service article div {
+.flex-Our_Service article .type_service {
   width: 61px;
   height: 69px;
 }
@@ -404,6 +430,7 @@ header {
 
 .Meet_Our {
   padding-top: 60px;
+  padding-bottom: 50px;
   background: rgba(158, 197, 230, 0.0941176471);
 }
 .Meet_Our h3 {
@@ -413,6 +440,11 @@ header {
   line-height: 49px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
+}
+@media screen and (max-width: 900px) {
+  .Meet_Our h3 {
+    font-size: 30px;
+  }
 }
 .Meet_Our .titletag {
   width: 81px;
@@ -532,12 +564,18 @@ header {
 .Mobile {
   background-image: url("../img/SliceMobile.jpg");
   background-size: cover;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 200px;
 }
 @media screen and (max-width: 1000px) {
   .Mobile {
     background: rgba(158, 198, 230, 0.1529411765);
+  }
+}
+@media screen and (max-width: 900px) {
+  .Mobile {
+    padding-top: 60px;
+    padding-bottom: 100px;
   }
 }
 .Mobile .top {
@@ -566,6 +604,11 @@ header {
   color: #3D3D3F;
   text-align: left;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 900px) {
+  .Mobile .top .row h3 {
+    font-size: 30px;
+  }
 }
 .Mobile .top .row p {
   font-family: "Roboto", sans-serif;
@@ -596,6 +639,12 @@ header {
   background: rgba(158, 198, 230, 0.1529411765);
   padding-bottom: 87px;
 }
+@media screen and (max-width: 900px) {
+  .Look {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
 .Look h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -604,6 +653,12 @@ header {
   letter-spacing: 0.02em;
   color: #3D3D3F;
   margin-bottom: 93px;
+}
+@media screen and (max-width: 900px) {
+  .Look h3 {
+    font-size: 30px;
+    margin-bottom: 43px;
+  }
 }
 .Look .owl-carousel {
   padding-top: 25px;
@@ -719,6 +774,12 @@ header {
   padding-bottom: 123px;
   background: rgba(158, 198, 230, 0.1529411765);
   position: relative;
+}
+@media screen and (max-width: 900px) {
+  .time_Change {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .time_Change .color_bg {
   background: #40A3F8;

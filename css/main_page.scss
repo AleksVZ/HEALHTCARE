@@ -16,6 +16,9 @@ $colorBraun:#6E5F5F;
         padding-top: 370px;
         padding-bottom: 110px;
     }
+    @include max-screen (593px){
+        padding-bottom: 35px;
+    }
     h1{
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -26,8 +29,11 @@ $colorBraun:#6E5F5F;
         text-align: left;
         span{
             color: $colorBlue;
-            
         }
+        @include max-screen (900px){
+            font-size: 38px;
+            line-height: 55px;
+          }
     }
     p{
         font-family: 'Roboto', sans-serif;

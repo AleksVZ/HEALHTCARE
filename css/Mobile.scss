@@ -7,33 +7,25 @@ $colorBraun:#6E5F5F;
 .Mobile{
     background-image: url('../img/SliceMobile.jpg');
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 200px;
     @include max-screen (1000px){
         background: #9ec6e627;
 
-      }
-
-
-
+    }
+    @include max-screen (900px){
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
 .top{
     display: flex;
     justify-content: end;
-
-
-
         .row{
             width: 50%;
-
-            
             @include max-screen (1000px){
                 width: 100%;
                 margin: inherit;
-        
             }
-
-
-
             
         h3{
             font-family: 'Roboto', sans-serif;
@@ -44,6 +36,9 @@ $colorBraun:#6E5F5F;
             color: #3D3D3F;
             text-align: left;
             margin-bottom: 30px;
+            @include max-screen (900px){
+                font-size: 30px;
+            }
         }
         p{
             font-family: 'Roboto', sans-serif;
@@ -55,39 +50,20 @@ $colorBraun:#6E5F5F;
             text-align: left;
             margin-bottom: 30px;
         }
-
-
-
-
-
-
-
-
     .Store_button{
         flex-wrap: wrap;
-        
         .GooglePlay{
             width: 156px;
             overflow: hidden;
             margin-bottom: 20px;
             @include max-screen (600px){
-                
-                
-        
-            }
-
-
-            
+            } 
         }
         .AppStore{
             width: 138px;
             overflow: hidden;
-
-
         }
-
-    }
-
+        }
         }
 }
 }

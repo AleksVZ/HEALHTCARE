@@ -9,6 +9,10 @@ $colorBraun:#6E5F5F;
     padding-bottom: 123px;
     background: #9ec6e627;
     position: relative;
+    @include max-screen (900px){
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
 
     .color_bg{
         background: #40A3F8;

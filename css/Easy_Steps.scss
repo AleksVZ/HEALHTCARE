@@ -19,6 +19,9 @@ $colorBraun:#6E5F5F;
         font-size: 42px;
         line-height: 70px;
         color: $colorBlack;
+        @include max-screen (900px){
+            font-size: 30px;
+        }
     }
     .row_Easy_Steps{
         div{

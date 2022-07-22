@@ -6,7 +6,7 @@ $colorBraun:#6E5F5F;
 
 .Meet_Our{
     padding-top: 60px;
-    // padding-bottom: 128px;
+    padding-bottom: 50px;
     background: #9ec5e618;
 
     h3{
@@ -16,6 +16,9 @@ $colorBraun:#6E5F5F;
         line-height: 49px;
         letter-spacing: 0.02em;
         color: #3D3D3F;
+        @include max-screen (900px){
+            font-size: 30px;
+        }
 
 
     }

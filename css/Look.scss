@@ -8,6 +8,10 @@ $colorBraun:#6E5F5F;
     padding-top: 120px;
     background: #9ec6e627;
     padding-bottom: 87px;
+    @include max-screen (900px){
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
 
     h3{
         font-family: 'Roboto', sans-serif;
@@ -17,6 +21,10 @@ $colorBraun:#6E5F5F;
         letter-spacing: 0.02em;
         color: #3D3D3F;
         margin-bottom: 93px;
+        @include max-screen (900px){
+            font-size: 30px;
+            margin-bottom: 43px;
+        }
 
     }
     .owl-carousel{
