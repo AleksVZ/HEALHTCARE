@@ -44,7 +44,12 @@ $colorBraun:#6E5F5F;
         @include max-screen (533px){
             justify-content: center;
     
-          }
+        }
+        @include max-screen (801px){
+            justify-content: center;
+            gap: 20px;
+    
+        }
 
         article{
         width: 267px;
@@ -60,6 +65,7 @@ $colorBraun:#6E5F5F;
         margin-bottom: 25px;
         &:hover {
             transform: scale(1.05, 1.05);
+            transition:  0.3s;
 
             
         }
@@ -112,6 +118,7 @@ $colorBraun:#6E5F5F;
                     transform: scale(1.2, 1.2);
                     box-shadow: 0px 0px 15px #40A3F8;
                     background:  #40A3F8;
+                    transition:  0.3s;
                     
                 }
                 a{

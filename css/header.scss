@@ -20,6 +20,7 @@ header{
     .nav-item{
         &:hover {
             transform: scale(1.2, 1.2);
+            transition:  0.3s;
         }
         .nav-link{
             font-family: 'Poppins', sans-serif;
@@ -30,6 +31,7 @@ header{
             opacity: 70%;
             &:hover{
                 color:$colorBlue;
+                
             }
         }
         }
@@ -38,6 +40,7 @@ header{
     background-color: #40A3F8;
     border-radius: 5px;
     padding: 13px 30px;
+    transition:  0.3s;
 }
 
 

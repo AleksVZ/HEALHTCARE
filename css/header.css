@@ -13,6 +13,7 @@ header {
 
 .navbar-nav .nav-item:hover {
   transform: scale(1.2, 1.2);
+  transition: 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -32,4 +33,5 @@ header {
   background-color: #40A3F8;
   border-radius: 5px;
   padding: 13px 30px;
+  transition: 0.3s;
 }
