@@ -194,6 +194,23 @@ header {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 593px) {
+  #exampleInputSearch::-webkit-input-placeholder {
+    text-align: center;
+  }
+  #exampleInputSearch::-moz-placeholder {
+    text-align: center;
+  }
+  #exampleInputSearch:-ms-input-placeholder {
+    text-align: center;
+  }
+  #exampleInputSearch::-ms-input-placeholder {
+    text-align: center;
+  }
+  #exampleInputSearch::placeholder {
+    text-align: center;
+  }
+}
 
 #exampleInputSity {
   margin-right: 20px;
